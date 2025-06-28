@@ -1,0 +1,14 @@
+# Byte‑code & caches
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+.env
+
+# Local cache directory for Wikidata pickles
+cache/
+
+# OS‐specific clutter
+.DS_Store
+Thumbs.db

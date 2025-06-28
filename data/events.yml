@@ -1,0 +1,209 @@
+# Philosophy‑related observances and anniversaries
+# -------------------------------------------------
+#   name      — human‑readable label
+#   rule      — "fixed" | "nth_weekday" | "easter_offset"
+#   category  — "global", "birthday", "humanist", "ethics", "social_justice", etc.
+# -------------------------------------------------
+
+# ========= GLOBAL OBSERVANCES =========
+- name: "World Philosophy Day"
+  rule: "nth_weekday"
+  month: 11
+  weekday: "THU"
+  n: 3
+  category: "global"
+
+- name: "World Logic Day"
+  rule: "fixed"
+  month: 1
+  day: 14
+  category: "global"
+
+# ========= PHILOSOPHER BIRTHDAYS (core list) =========
+- name: "Immanuel Kant - birthday"            # 1724
+  rule: "fixed"
+  month: 4
+  day: 22
+  category: "birthday"
+
+- name: "Simone de Beauvoir - birthday"       # 1908
+  rule: "fixed"
+  month: 1
+  day: 9
+  category: "birthday"
+
+- name: "Ludwig Wittgenstein - birthday"      # 1889
+  rule: "fixed"
+  month: 4
+  day: 26
+  category: "birthday"
+
+- name: "Friedrich Nietzsche - birthday"      # 1844
+  rule: "fixed"
+  month: 10
+  day: 15
+  category: "birthday"
+
+- name: "Karl Marx - birthday"                # 1818
+  rule: "fixed"
+  month: 5
+  day: 5
+  category: "birthday"
+
+- name: "Jean-Paul Sartre - birthday"         # 1905
+  rule: "fixed"
+  month: 6
+  day: 21
+  category: "birthday"
+
+- name: "John Stuart Mill - birthday"         # 1806
+  rule: "fixed"
+  month: 5
+  day: 20
+  category: "birthday"
+
+- name: "René Descartes - birthday"           # 1596
+  rule: "fixed"
+  month: 3
+  day: 31
+  category: "birthday"
+
+- name: "Mary Wollstonecraft - birthday"      # 1759
+  rule: "fixed"
+  month: 4
+  day: 27
+  category: "birthday"
+
+- name: "Hannah Arendt - birthday"            # 1906
+  rule: "fixed"
+  month: 10
+  day: 14
+  category: "birthday"
+
+# --- Modern additions (academic mainstream) ---
+- name: "Charles Darwin - birthday"
+  rule: "fixed"
+  month: 2
+  day: 12
+  category: "birthday"
+
+- name: "Henri Bergson - birthday"
+  rule: "fixed"
+  month: 3
+  day: 20
+  category: "birthday"
+
+- name: "Bertrand Russell - birthday"
+  rule: "fixed"
+  month: 5
+  day: 18
+  category: "birthday"
+
+- name: "David Hume - birthday"
+  rule: "fixed"
+  month: 5
+  day: 7
+  category: "birthday"
+
+- name: "Thomas Nagel - birthday"
+  rule: "fixed"
+  month: 7
+  day: 4
+  category: "birthday"
+
+- name: "Henry David Thoreau - birthday"
+  rule: "fixed"
+  month: 7
+  day: 12
+  category: "birthday"
+
+- name: "Karl Popper - birthday"
+  rule: "fixed"
+  month: 7
+  day: 28
+  category: "birthday"
+
+- name: "John Locke - birthday"
+  rule: "fixed"
+  month: 8
+  day: 29
+  category: "birthday"
+
+- name: "Martin Heidegger - birthday"
+  rule: "fixed"
+  month: 9
+  day: 26
+  category: "birthday"
+
+- name: "Noam Chomsky - birthday"
+  rule: "fixed"
+  month: 12
+  day: 7
+  category: "birthday"
+
+- name: "Ada Lovelace - birthday"
+  rule: "fixed"
+  month: 12
+  day: 10
+  category: "birthday"
+
+# ========= PHILOSOPHY‑ADJACENT OBSERVANCES =========
+- name: "World Humanist Day"
+  rule: "fixed"
+  month: 6
+  day: 21
+  category: "humanist"
+
+- name: "International Women's Day"
+  rule: "fixed"
+  month: 3
+  day: 8
+  category: "social_justice"
+
+- name: "World Day for Cultural Diversity"
+  rule: "fixed"
+  month: 5
+  day: 21
+  category: "cultural"
+
+- name: "World Day for International Justice"
+  rule: "fixed"
+  month: 7
+  day: 17
+  category: "social_justice"
+
+- name: "International Day of Peace"
+  rule: "fixed"
+  month: 9
+  day: 21
+  category: "ethics"
+
+- name: "World Teachers' Day"
+  rule: "fixed"
+  month: 10
+  day: 5
+  category: "humanist"
+
+- name: "Global Ethics Day"
+  rule: "fixed"
+  month: 10
+  day: 15
+  category: "ethics"
+
+- name: "International Day for Tolerance"
+  rule: "fixed"
+  month: 11
+  day: 16
+  category: "tolerance"
+
+- name: "Human Rights Day"
+  rule: "fixed"
+  month: 12
+  day: 10
+  category: "social_justice"
+
+- name: "World Day of Social Justice"
+  rule: "fixed"
+  month: 2
+  day: 20
+  category: "social_justice"
