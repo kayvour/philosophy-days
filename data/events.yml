@@ -147,6 +147,67 @@
   day: 10
   category: "birthday"
 
+# ========= INDIAN PHILOSOPHERS & THINKERS =========
+- name: "Mahatma Gandhi - birthday"           # 1869
+  rule: "fixed"
+  month: 10
+  day: 2
+  category: "birthday"
+
+- name: "Sarvepalli Radhakrishnan - birthday" # 1888
+  rule: "fixed"
+  month: 9
+  day: 5
+  category: "birthday"
+
+- name: "Rabindranath Tagore - birthday"      # 1861
+  rule: "fixed"
+  month: 5
+  day: 7
+  category: "birthday"
+
+- name: "Swami Vivekananda - birthday"        # 1863
+  rule: "fixed"
+  month: 1
+  day: 12
+  category: "birthday"
+
+- name: "A.P.J. Abdul Kalam - birthday"       # 1931
+  rule: "fixed"
+  month: 10
+  day: 15
+  category: "birthday"
+
+- name: "Jiddu Krishnamurti - birthday"       # 1895
+  rule: "fixed"
+  month: 5
+  day: 12
+  category: "birthday"
+
+- name: "Sri Aurobindo - birthday"            # 1872
+  rule: "fixed"
+  month: 8
+  day: 15
+  category: "birthday"
+
+- name: "Adi Shankara - traditional birthday" # ~788 CE
+  rule: "fixed"
+  month: 4
+  day: 14
+  category: "birthday"
+
+- name: "B.R. Ambedkar - birthday"            # 1891
+  rule: "fixed"
+  month: 4
+  day: 14
+  category: "birthday"
+
+- name: "Chanakya (Kautilya) - traditional birthday" # ~350 BCE
+  rule: "fixed"
+  month: 8
+  day: 23
+  category: "birthday"
+
 # ========= PHILOSOPHY‑ADJACENT OBSERVANCES =========
 - name: "World Humanist Day"
   rule: "fixed"
@@ -207,3 +268,38 @@
   month: 2
   day: 20
   category: "social_justice"
+
+# ========= INDIAN & EASTERN PHILOSOPHY OBSERVANCES =========
+- name: "Gandhi Jayanti (International Day of Non-Violence)"
+  rule: "fixed"
+  month: 10
+  day: 2
+  category: "ethics"
+
+- name: "Teachers' Day (India) - Radhakrishnan birthday"
+  rule: "fixed"
+  month: 9
+  day: 5
+  category: "humanist"
+
+- name: "Buddha Purnima"
+  rule: "nth_weekday"  # Note: Actually lunar calendar, varies by year
+  month: 5
+  weekday: "SUN"
+  n: 2
+  category: "spiritual"
+
+- name: "Guru Nanak Jayanti"
+  rule: "nth_weekday"  # Note: Actually lunar calendar, varies by year
+  month: 11
+  weekday: "SUN"
+  n: 2
+  category: "spiritual"
+
+- name: "World Sanskrit Day"
+  rule: "nth_weekday"  # Celebrated on Shravana Purnima
+  month: 8
+  weekday: "SUN"
+  n: 2
+  category: "cultural"
+  
